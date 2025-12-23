@@ -18,10 +18,11 @@
   ],
   "drivers": [
     { "id": 1, "name": "David", "team": "redbull", "number": 72, "estado": "Titular" },
-    { "id": 2, "name": "Alexis", "team": "racingbull", "number": 12, "estado": "Titular" },
+    { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Titular" },
     { "id": 3, "name": "Nathanael ", "team": "mercedes", "number": 63, "estado": "Titular" },
     { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Titular" },
-    { "id": 5, "name": "Leonel", "team": "redbull", "number": 11, "estado": "Titular" }
+    { "id": 5, "name": "Leonel", "team": "redbull", "number": 11, "estado": "Titular" },
+    { "id": 5, "name": "Iker", "team": "ferrari", "number": 16, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "Christian Horner" },
