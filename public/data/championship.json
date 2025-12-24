@@ -74,8 +74,8 @@
   "results": {
     "1": {
       "qualifying": [
-        { "driverId": 4, "time": "1:11.600" },
-        { "driverId": 9, "time": "1:04:649" }
+        { "driverId": 9, "time": "1:04:649" },
+        { "driverId": 4, "time": "1:11.600" }
       ],
       "race": []
     }
