@@ -71,7 +71,14 @@
     { "id": 23, "name": "Gran Premio de Qatar", "country": "Qatar", "flag": "🇶🇦", "circuit": "Lusail International Circuit" },
     { "id": 24, "name": "Gran Premio de Abu Dhabi", "country": "Emiratos Árabes Unidos", "flag": "🇦🇪", "circuit": "Yas Marina Circuit" }
   ],
-  "results": {  },
+  "results": {
+    "1": {
+      "qualifying": [
+        { "driverId": 4, "time": "1:11.600" }
+      ],
+      "race": []
+    },
+  },
   "pointsSystem": {
     "race": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "fastestLap": 1
