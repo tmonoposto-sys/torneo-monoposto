@@ -30,7 +30,8 @@
     { "id": 11, "name": "Luis", "team": "racingbull", "number": 9, "estado": "Titular" },
     { "id": 12, "name": "Cristopher", "team": "alpine", "number": 3, "estado": "Titular" },
     { "id": 13, "name": "Juan", "team": "haas", "number": 44, "estado": "Titular" },
-    { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" }
+    { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" },
+    { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "Christian Horner" },
