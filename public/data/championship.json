@@ -79,7 +79,15 @@
         { "driverId": 9, "time": "1:04:649" },
         { "driverId": 2, "time": "1:05.533" },
         { "driverId": 13, "time": "1:09.066" },
-        { "driverId": 4, "time": "1:11.600" }
+        { "driverId": 4, "time": "1:11.600" },
+        { "driverId": 3, "time": "--:--" },
+        { "driverId": 6, "time": "--:--" },
+        { "driverId": 7, "time": "--:--" },
+        { "driverId": 8, "time": "--:--" },
+        { "driverId": 10, "time": "--:--" },
+        { "driverId": 11, "time": "--:--" },
+        { "driverId": 12, "time": "--:--" },
+        { "driverId": 14, "time": "--:--" }
       ],
       "race": []
     }
