@@ -32,7 +32,8 @@
     { "id": 13, "name": "Juan", "team": "haas", "number": 44, "estado": "Titular" },
     { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" },
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" },
-    { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" }
+    { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" },
+    { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" },
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "Christian Horner" },
@@ -95,8 +96,10 @@
     },
     "2": {
        "qualifying": [
-         { "driverId": 9, "time": "1:5.900" },
-         { "driverId": 15, "time": "1:18.699" }
+         { "driverId": 9, "time": "1:15.900" },
+         { "driverId": 14, "time": "1:18:183" },
+         { "driverId": 15, "time": "1:18.699" },
+         { "driverId": 4, "time": "1:24.599" }
        ],
       "race": []
     }
