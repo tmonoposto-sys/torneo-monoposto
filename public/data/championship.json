@@ -33,7 +33,7 @@
     { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" },
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" },
     { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" },
-    { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" },
+    { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "Christian Horner" },
