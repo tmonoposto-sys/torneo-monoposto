@@ -33,7 +33,8 @@
     { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" },
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" },
     { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" },
-    { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" }
+    { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" },
+    { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "Christian Horner" },
@@ -96,10 +97,24 @@
     },
     "2": {
        "qualifying": [
+         { "driverId": 5, "time": "1:13.683" },
          { "driverId": 9, "time": "1:15.900" },
+         { "driverId": 1, "time": "1:17.716" },
          { "driverId": 14, "time": "1:18:183" },
          { "driverId": 15, "time": "1:18.699" },
-         { "driverId": 4, "time": "1:24.599" }
+         { "driverId": 18, "time": "1:21:816" },
+         { "driverId": 11, "time": "1:23.683" },
+         { "driverId": 4, "time": "1:24.599" },
+         { "driverId": 17, "time": "1:35.416" },
+         { "driverId": 16, "time": "--:--" },
+         { "driverId": 13, "time": "--:--" },
+         { "driverId": 12, "time": "--:--" },
+         { "driverId": 10, "time": "--:--" },
+         { "driverId": 8, "time": "--:--" },
+         { "driverId": 7, "time": "--:--" },
+         { "driverId": 6, "time": "--:--" },
+         { "driverId": 3, "time": "--:--" },
+         { "driverId": 2, "time": "--:--" }
        ],
       "race": []
     }
