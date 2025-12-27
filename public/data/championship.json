@@ -34,7 +34,7 @@
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" },
     { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" },
     { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" },
-    { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Titular" }
+    { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Titular" },
     { "id": 19, "name": "Marco", "team": "redbull", "number": 5, "estado": "Titular" }
   ],
   "teamPrincipals": [
