@@ -38,7 +38,7 @@
     { "id": 19, "name": "Marco", "team": "redbull", "number": 5, "estado": "Titular" }
   ],
   "teamPrincipals": [
-    { "teamId": "redbull", "name": "Christian Horner" },
+    { "teamId": "redbull", "name": "David" },
     { "teamId": "ferrari", "name": "Frédéric Vasseur" },
     { "teamId": "mercedes", "name": "Toto Wolff" },
     { "teamId": "mclaren", "name": "Andrea Stella" },
