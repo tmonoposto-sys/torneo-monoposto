@@ -38,7 +38,8 @@
     { "id": 19, "name": "Marco", "team": "redbull", "number": 5, "estado": "Titular" },
     { "id": 20, "name": "Diego", "team": "ferrari", "number": 57, "estado": "Titular" },
     { "id": 21, "name": "Iker", "team": "apexgp", "number": 16, "estado": "Titular" },
-    { "id": 22, "name": "Martin", "team": "mclaren", "number": 43, "estado": "Titular" }
+    { "id": 22, "name": "Martin", "team": "mclaren", "number": 43, "estado": "Titular" },
+    { "id": 23, "name": "Carlos", "team": "astonmartin", "number": 97, "estado": "Titular" },
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
