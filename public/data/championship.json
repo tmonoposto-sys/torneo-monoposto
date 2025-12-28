@@ -20,12 +20,12 @@
     { "id": 1, "name": "David", "team": "redbull", "number": 72, "estado": "Expiloto" },
     { "id": 9, "name": "Marco", "team": "alpine", "number": 5, "estado": "Expiloto" },
     { "id": 6, "name": "Iker", "team": "ferrari", "number": 16, "estado": "Expiloto" },
-    { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Titular" },
     { "id": 13, "name": "Juan", "team": "haas", "number": 70, "estado": "Expiloto" },
+    { "id": 7, "name": "Lande", "team": "mclaren", "number": 32, "estado": "Reserva" },
+    { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Titular" },
     { "id": 3, "name": "Nathanael ", "team": "mercedes", "number": 63, "estado": "Titular" },
     { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Titular" },
     { "id": 5, "name": "Leonel", "team": "redbull", "number": 11, "estado": "Titular" },
-    { "id": 7, "name": "Lande", "team": "mclaren", "number": 32, "estado": "Reserva" },
     { "id": 8, "name": "Pablo", "team": "mclaren", "number": 10, "estado": "Titular" },
     { "id": 10, "name": "Moises", "team": "racingbull", "number": 23, "estado": "Titular" },
     { "id": 11, "name": "Luis", "team": "racingbull", "number": 9, "estado": "Titular" },
@@ -43,7 +43,7 @@
     { "id": 24, "name": "Eliseo", "team": "sauber", "number": 25, "estado": "Titular" },
     { "id": 25, "name": "Javier", "team": "haas", "number": 99, "estado": "Titular" },
     { "id": 26, "name": "Luis", "team": "haas", "number": 44, "estado": "Titular" },
-    { "id": 26, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" }
+    { "id": 27, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
@@ -129,15 +129,30 @@
     },
     "3": {
        "qualifying": [
+         { "driverId": 9, "time": "1.10.033" },
          { "driverId": 5, "time": "1:10.050" },
          { "driverId": 20, "time": "1.10.783" },
+         { "driverId": 23, "time": "1:10.966" },
          { "driverId": 19, "time": "1.11.550" },
          { "driverId": 18, "time": "1.13.030" },
-         { "driverId": 23, "time": "1:13.200" },
+         { "driverId": 26, "time": "1:16.650" },
+         { "driverId": 14, "time": "1:18.750" },
+         { "driverId": 25, "time": "1:19.033" },
          { "driverId": 11, "time": "1:20.433" },
          { "driverId": 4, "time": "1:20.816" },
          { "driverId": 24, "time": "1:22.933" },
-         { "driverId": 22, "time": "1:26.833" }
+         { "driverId": 10, "time": "1:24.383" },
+         { "driverId": 22, "time": "1:26.833" },
+         { "driverId": 12, "time": "1:29.300" },
+         { "driverId": 3, "time": "1:34.516" },
+         { "driverId": 2, "time": "--:--" },
+         { "driverId": 7, "time": "--:--" },
+         { "driverId": 8, "time": "--:--" },
+         { "driverId": 15, "time": "--:--" },
+         { "driverId": 16, "time": "--:--" },
+         { "driverId": 17, "time": "--:--" },
+         { "driverId": 21, "time": "--:--" },
+         { "driverId": 27, "time": "--:--" }
        ],
       "race": []
     }
