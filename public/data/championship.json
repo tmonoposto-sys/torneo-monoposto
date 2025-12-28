@@ -42,7 +42,8 @@
     { "id": 23, "name": "Carlos", "team": "astonmartin", "number": 97, "estado": "Titular" },
     { "id": 24, "name": "Eliseo", "team": "sauber", "number": 25, "estado": "Titular" },
     { "id": 25, "name": "Javier", "team": "haas", "number": 99, "estado": "Titular" },
-    { "id": 26, "name": "Luis", "team": "haas", "number": 44, "estado": "Titular" }
+    { "id": 26, "name": "Luis", "team": "haas", "number": 44, "estado": "Titular" },
+    { "id": 26, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
@@ -125,6 +126,13 @@
          { "driverId": 2, "time": "--:--" }
        ],
       "race": [5, 15, 9, 18, 11, 1, 17, 14, 3, 16, 10, 6, 2, 12, 8, 7, 4, 13]
+    },
+    "3": {
+       "qualifying": [
+         { "driverId": 4, "time": "1:20.816" },
+         { "driverId": 2, "time": "--:--" }
+       ],
+      "race": []
     }
   },
   "pointsSystem": {
