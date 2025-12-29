@@ -22,6 +22,7 @@
     { "id": 6, "name": "Iker", "team": "ferrari", "number": 16, "estado": "Expiloto" },
     { "id": 13, "name": "Juan", "team": "haas", "number": 70, "estado": "Expiloto" },
     { "id": 7, "name": "Lande", "team": "mclaren", "number": 32, "estado": "Expiloto" },
+    { "id": 21, "name": "Iker", "team": "apexgp", "number": 16, "estado": "Expiloto" },
     { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Titular" },
     { "id": 3, "name": "Nathanael ", "team": "mercedes", "number": 63, "estado": "Titular" },
     { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Titular" },
@@ -37,14 +38,14 @@
     { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Titular" },
     { "id": 19, "name": "Marco", "team": "redbull", "number": 5, "estado": "Titular" },
     { "id": 20, "name": "Ruan", "team": "ferrari", "number": 57, "estado": "Titular" },
-    { "id": 21, "name": "Iker", "team": "apexgp", "number": 16, "estado": "Titular" },
     { "id": 22, "name": "Martin", "team": "mclaren", "number": 43, "estado": "Titular" },
     { "id": 23, "name": "Carlos", "team": "astonmartin", "number": 97, "estado": "Titular" },
     { "id": 24, "name": "Eliseo", "team": "sauber", "number": 25, "estado": "Titular" },
     { "id": 25, "name": "Javier", "team": "haas", "number": 99, "estado": "Titular" },
     { "id": 26, "name": "Luis", "team": "haas", "number": 44, "estado": "Titular" },
     { "id": 27, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" },
-    { "id": 28, "name": "Samuel", "team": "mclaren", "number": 66, "estado": "Titular" }
+    { "id": 28, "name": "Samuel", "team": "mclaren", "number": 66, "estado": "Titular" },
+    { "id": 29, "name": "Lorenzo", "team": "apexgp", "number": 14, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
