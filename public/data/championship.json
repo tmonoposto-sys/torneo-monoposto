@@ -46,7 +46,9 @@
     { "id": 27, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" },
     { "id": 28, "name": "Samuel", "team": "mclaren", "number": 66, "estado": "Titular" },
     { "id": 29, "name": "Lorenzo", "team": "apexgp", "number": 14, "estado": "Titular" },
-    { "id": 30, "name": "Edilson", "team": "ferrari", "number": 20, "estado": "Titular" }
+    { "id": 30, "name": "Edilson", "team": "ferrari", "number": 20, "estado": "Titular" },
+    { "id": 31, "name": "Arbex ", "team": "apexgp", "number": 46, "estado": "Reserva" },
+    { "id": 32, "name": "Yamil ", "team": "mclaren", "number": 55, "estado": "Reserva" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
