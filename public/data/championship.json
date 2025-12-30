@@ -23,7 +23,7 @@
     { "id": 13, "name": "Juan", "team": "haas", "number": 70, "estado": "Expiloto" },
     { "id": 7, "name": "Lande", "team": "mclaren", "number": 32, "estado": "Expiloto" },
     { "id": 21, "name": "Iker", "team": "apexgp", "number": 16, "estado": "Expiloto" },
-    { "id": 8, "name": "Pablo", "team": "mclaren", "number": 10, "estado": "Reserva" },
+    { "id": 8, "name": "Pablo", "team": "mclaren", "number": 10, "estado": "Expiloto" },
     { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Reserva" },
     { "id": 3, "name": "Nathanael ", "team": "mercedes", "number": 63, "estado": "Titular" },
     { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Titular" },
@@ -47,8 +47,9 @@
     { "id": 28, "name": "Samuel", "team": "mclaren", "number": 66, "estado": "Titular" },
     { "id": 29, "name": "Lorenzo", "team": "apexgp", "number": 14, "estado": "Titular" },
     { "id": 30, "name": "Edilson", "team": "ferrari", "number": 20, "estado": "Titular" },
-    { "id": 31, "name": "Arbex ", "team": "apexgp", "number": 46, "estado": "Reserva" },
-    { "id": 32, "name": "Yamil ", "team": "mclaren", "number": 55, "estado": "Reserva" }
+    { "id": 31, "name": "Arbex", "team": "apexgp", "number": 46, "estado": "Reserva" },
+    { "id": 32, "name": "Yamil", "team": "mclaren", "number": 55, "estado": "Reserva" },
+    { "id": 33, "name": "Giancarlo", "team": "mercedes", "number": 18, "estado": "Reserva" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
