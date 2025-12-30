@@ -162,8 +162,14 @@
     },
     "4": {
        "qualifying": [
+         { "driverId": 20, "time": "1:09.916" },
+         { "driverId": 15, "time": "1:09.916" },
+         { "driverId": 29, "time": "1:11:400" },
+         { "driverId": 12, "time": "1:13.983" },
+         { "driverId": 11, "time": "1:14.683" },
          { "driverId": 14, "time": "1.14.016" },
-         { "driverId": 11, "time": "1:14.683" }
+         { "driverId": 25, "time": "1:15.433" },
+         { "driverId": 4, "time": "1:20.433" }
        ],
       "race": []
     }
