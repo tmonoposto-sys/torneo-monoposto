@@ -164,7 +164,8 @@
        "qualifying": [
          { "driverId": 20, "time": "1:08.366" },
          { "driverId": 15, "time": "1:09.916" },
-         { "driverId": 29, "time": "1:11:400" },
+         { "driverId": 29, "time": "1:11.400" },
+         { "driverId": 31, "time": "1:12.316" },
          { "driverId": 12, "time": "1:13.983" },
          { "driverId": 11, "time": "1:14.683" },
          { "driverId": 14, "time": "1.14.016" },
