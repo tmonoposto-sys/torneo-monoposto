@@ -53,7 +53,7 @@ export const useChampionshipData = () => {
       });
 
       // Fastest lap point - only if driver finished in top 10 and is Titular
-      if (result.fastestLap) {
+      if (result?.fastestLap) {
         const fastestLapDriver = getDriverById(result.fastestLap);
         const fastestLapPosition = result.race.indexOf(result.fastestLap);
         if (fastestLapDriver && fastestLapDriver.estado != "Expiloto" && fastestLapPosition >= 0 && fastestLapPosition < 10) {
@@ -108,7 +108,7 @@ export const useChampionshipData = () => {
       });
 
       // Fastest lap point for constructor - only if driver finished in top 10 and is Titular
-      if (result.fastestLap) {
+      if (result?.fastestLap) {
         const fastestLapDriver = getDriverById(result.fastestLap);
         const fastestLapPosition = result.race.indexOf(result.fastestLap);
         if (fastestLapDriver && fastestLapPosition >= 0 && fastestLapPosition < 10) {
