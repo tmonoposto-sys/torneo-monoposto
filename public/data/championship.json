@@ -51,7 +51,7 @@
     { "id": 32, "name": "Yamil", "team": "mclaren", "number": 55, "estado": "Reserva" },
     { "id": 33, "name": "Giancarlo", "team": "mercedes", "number": 18, "estado": "Reserva" },
     { "id": 34, "name": "Arbex", "team": "mercedes", "number": 46, "estado": "Titular" },
-    { "id": 35, "name": "Joshua", "team": "astonmartin", "number": 27, "estado": "Titular" },
+    { "id": 35, "name": "Joshua", "team": "astonmartin", "number": 27, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
