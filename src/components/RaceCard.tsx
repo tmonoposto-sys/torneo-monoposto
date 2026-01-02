@@ -1,5 +1,5 @@
-import { GrandPrix, RaceResult, Driver, Team } from '@/types/championship';
-import { ChevronRight, Trophy, Clock } from 'lucide-react';
+import { GrandPrix, RaceResult, Driver, Team, PointsSystem } from '@/types/championship';
+import { ChevronRight, Trophy, Clock, Zap, CloudRain, Timer } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
@@ -8,7 +8,7 @@ interface Props {
   result?: RaceResult;
   getDriverById: (id: number) => Driver | undefined;
   getTeamById: (teamId: string) => Team | undefined;
-  pointsSystem: number[];
+  pointsSystem: PointsSystem;
 }
 
 export const RaceCard = ({ gp, result, getDriverById, getTeamById, pointsSystem }: Props) => {
@@ -42,6 +42,18 @@ export const RaceCard = ({ gp, result, getDriverById, getTeamById, pointsSystem 
           </div>
         </div>
         <div className="flex items-center gap-3">
+          {gp.isSprint && (
+            <span className="flex items-center gap-1 px-2 py-1 bg-amber-500/20 text-amber-500 text-xs font-semibold rounded">
+              <Zap className="w-3 h-3" />
+              SPRINT
+            </span>
+          )}
+          {gp.isRain && (
+            <span className="flex items-center gap-1 px-2 py-1 bg-blue-500/20 text-blue-500 text-xs font-semibold rounded">
+              <CloudRain className="w-3 h-3" />
+              LLUVIA
+            </span>
+          )}
           {complete ? (
             <span className="px-2 py-1 bg-primary/10 text-primary text-xs font-semibold rounded">
               COMPLETADO
@@ -112,18 +124,36 @@ export const RaceCard = ({ gp, result, getDriverById, getTeamById, pointsSystem 
             {/* Race Results */}
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <Trophy className="w-4 h-4 text-primary" />
-                <h4 className="font-semibold text-foreground">Carrera</h4>
+                {gp.isSprint ? (
+                  <Zap className="w-4 h-4 text-amber-500" />
+                ) : (
+                  <Trophy className="w-4 h-4 text-primary" />
+                )}
+                <h4 className="font-semibold text-foreground">
+                  {gp.isSprint ? 'Sprint' : 'Carrera'}
+                </h4>
+                {gp.isSprint && (
+                  <span className="text-xs text-muted-foreground">(Puntos reducidos)</span>
+                )}
               </div>
               <div className="space-y-2">
                 {result?.race?.map((driverId, index) => {
                   const driver = getDriverById(driverId);
                   const team = driver ? getTeamById(driver.team) : undefined;
-                  const points = pointsSystem[index] || 0;
+                  const racePoints = gp.isSprint ? pointsSystem.sprint : pointsSystem.race;
+                  let points = racePoints[index] || 0;
+                  const hasFastestLap = result.fastestLap === driverId;
+                  const fastestLapEligible = hasFastestLap && index < 10;
+                  if (fastestLapEligible) {
+                    points += pointsSystem.fastestLap;
+                  }
                   return (
                     <div
                       key={`race-${index}`}
-                      className="flex items-center gap-2 text-sm"
+                      className={cn(
+                        "flex items-center gap-2 text-sm",
+                        hasFastestLap && "bg-purple-500/10 -mx-2 px-2 py-1 rounded"
+                      )}
                     >
                       <span
                         className={cn(
@@ -148,9 +178,20 @@ export const RaceCard = ({ gp, result, getDriverById, getTeamById, pointsSystem 
                         >
                           {team?.name || 'Unknown'}
                         </span>
+                        {hasFastestLap && (
+                          <span className="flex items-center gap-1 text-xs text-purple-500 font-semibold">
+                            <Timer className="w-3 h-3" />
+                            VR
+                          </span>
+                        )}
                       </div>
                       {points > 0 && (
-                        <span className="text-xs font-semibold text-primary">+{points}</span>
+                        <span className={cn(
+                          "text-xs font-semibold",
+                          fastestLapEligible ? "text-purple-500" : "text-primary"
+                        )}>
+                          +{points}
+                        </span>
                       )}
                     </div>
                   );

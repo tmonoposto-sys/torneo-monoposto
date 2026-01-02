@@ -50,7 +50,7 @@ const CalendarPage = () => {
                 result={data.results[gp.id.toString()]}
                 getDriverById={getDriverById}
                 getTeamById={getTeamById}
-                pointsSystem={data.pointsSystem.race}
+                pointsSystem={data.pointsSystem}
               />
             ))}
           </div>

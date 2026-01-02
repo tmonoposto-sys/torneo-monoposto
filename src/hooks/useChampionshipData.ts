@@ -36,15 +36,33 @@ export const useChampionshipData = () => {
       standings.set(driver.id, { points: 0, wins: 0, podiums: 0 });
     });
 
-    Object.values(data.results).forEach(result => {
+    Object.entries(data.results).forEach(([gpId, result]) => {
+      const gp = data.grandPrix.find(g => g.id.toString() === gpId);
+      const racePoints = gp?.isSprint ? data.pointsSystem.sprint : data.pointsSystem.race;
+      
       result.race.forEach((driverId, position) => {
-        const current = standings.get(driverId);
-        if (current && data.pointsSystem.race[position]) {
-          current.points += data.pointsSystem.race[position];
-          if (position === 0) current.wins++;
-          if (position < 3) current.podiums++;
+        const driver = getDriverById(driverId);
+        if (driver && driver.estado != "Expiloto") {
+          const current = standings.get(driverId);
+          if (current && racePoints[position]) {
+            current.points += racePoints[position];
+            if (position === 0) current.wins++;
+            if (position < 3) current.podiums++;
+          }
         }
       });
+
+      // Fastest lap point - only if driver finished in top 10 and is Titular
+      if (result.fastestLap) {
+        const fastestLapDriver = getDriverById(result.fastestLap);
+        const fastestLapPosition = result.race.indexOf(result.fastestLap);
+        if (fastestLapDriver && fastestLapDriver.estado != "Expiloto" && fastestLapPosition >= 0 && fastestLapPosition < 10) {
+          const current = standings.get(result.fastestLap);
+          if (current) {
+            current.points += data.pointsSystem.fastestLap;
+          }
+        }
+      }
     });
 
     return data.drivers
@@ -74,17 +92,32 @@ export const useChampionshipData = () => {
       standings.set(team.id, { points: 0, wins: 0 });
     });
 
-    Object.values(data.results).forEach(result => {
+    Object.entries(data.results).forEach(([gpId, result]) => {
+      const gp = data.grandPrix.find(g => g.id.toString() === gpId);
+      const racePoints = gp?.isSprint ? data.pointsSystem.sprint : data.pointsSystem.race;
+      
       result.race.forEach((driverId, position) => {
         const driver = getDriverById(driverId);
         if (driver) {
           const current = standings.get(driver.team);
-          if (current && data.pointsSystem.race[position]) {
-            current.points += data.pointsSystem.race[position];
+          if (current && racePoints[position]) {
+            current.points += racePoints[position];
             if (position === 0) current.wins++;
           }
         }
       });
+
+      // Fastest lap point for constructor - only if driver finished in top 10 and is Titular
+      if (result.fastestLap) {
+        const fastestLapDriver = getDriverById(result.fastestLap);
+        const fastestLapPosition = result.race.indexOf(result.fastestLap);
+        if (fastestLapDriver && fastestLapPosition >= 0 && fastestLapPosition < 10) {
+          const current = standings.get(fastestLapDriver.team);
+          if (current) {
+            current.points += data.pointsSystem.fastestLap;
+          }
+        }
+      }
     });
 
     return data.teams

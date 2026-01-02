@@ -25,6 +25,8 @@ export interface GrandPrix {
   country: string;
   flag: string;
   circuit: string;
+  isSprint?: boolean;
+  isRain?: boolean;
 }
 
 export interface QualifyingEntry {
@@ -35,6 +37,7 @@ export interface QualifyingEntry {
 export interface RaceResult {
   qualifying: QualifyingEntry[];
   race: number[];
+  fastestLap?: number;
 }
 
 export interface Results {
@@ -43,6 +46,7 @@ export interface Results {
 
 export interface PointsSystem {
   race: number[];
+  sprint: number[];
   fastestLap: number;
 }
 
