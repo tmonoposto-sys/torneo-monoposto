@@ -19,23 +19,25 @@
   "drivers": [
     { "id": 1, "name": "David", "team": "redbull", "number": 72, "estado": "Expiloto" },
     { "id": 9, "name": "Marco", "team": "alpine", "number": 5, "estado": "Expiloto" },
-    { "id": 6, "name": "Iker", "team": "ferrari", "number": 16, "estado": "Expiloto" },
+    { "id": 6, "name": "Iker", "team": "ferrari", "number": 44, "estado": "Expiloto" },
     { "id": 13, "name": "Juan", "team": "haas", "number": 70, "estado": "Expiloto" },
     { "id": 7, "name": "Lande", "team": "mclaren", "number": 32, "estado": "Expiloto" },
+    { "id": 31, "name": "Arbex", "team": "apexgp", "number": 46, "estado": "Expiloto" },
     { "id": 21, "name": "Iker", "team": "apexgp", "number": 16, "estado": "Expiloto" },
     { "id": 8, "name": "Pablo", "team": "mclaren", "number": 10, "estado": "Expiloto" },
-    { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Reserva" },
+    { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Expiloto" },
+    { "id": 30, "name": "Edilson", "team": "ferrari", "number": 20, "estado": "Expiloto" },
+    { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Expiloto" },
+    { "id": 2, "name": "Alexis", "team": "ferrari", "number": 12, "estado": "Titular" },
     { "id": 3, "name": "Nathanael ", "team": "mercedes", "number": 63, "estado": "Titular" },
-    { "id": 4, "name": "Zackary", "team": "mercedes", "number": 27, "estado": "Titular" },
     { "id": 5, "name": "Leonel", "team": "redbull", "number": 11, "estado": "Titular" },
     { "id": 10, "name": "Moises", "team": "racingbull", "number": 23, "estado": "Titular" },
     { "id": 11, "name": "Luis", "team": "racingbull", "number": 9, "estado": "Titular" },
     { "id": 12, "name": "Cristopher", "team": "alpine", "number": 3, "estado": "Titular" },
     { "id": 14, "name": "Andriws", "team": "williams", "number": 69, "estado": "Titular" },
-    { "id": 15, "name": "Giovanni", "team": "williams", "number": 7, "estado": "Titular" },
+    { "id": 15, "name": "Giovanni", "team": "williams", "number": 16, "estado": "Titular" },
     { "id": 16, "name": "Axl", "team": "apexgp", "number": 33, "estado": "Titular" },
     { "id": 17, "name": "Manuel", "team": "sauber", "number": 2, "estado": "Titular" },
-    { "id": 18, "name": "Nano", "team": "astonmartin", "number": 29, "estado": "Titular" },
     { "id": 19, "name": "Marco", "team": "redbull", "number": 5, "estado": "Titular" },
     { "id": 20, "name": "Ruan", "team": "ferrari", "number": 57, "estado": "Titular" },
     { "id": 22, "name": "Martin", "team": "mclaren", "number": 43, "estado": "Titular" },
@@ -46,10 +48,9 @@
     { "id": 27, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Titular" },
     { "id": 28, "name": "Samuel", "team": "mclaren", "number": 66, "estado": "Titular" },
     { "id": 29, "name": "Lorenzo", "team": "apexgp", "number": 14, "estado": "Titular" },
-    { "id": 30, "name": "Edilson", "team": "ferrari", "number": 20, "estado": "Titular" },
-    { "id": 31, "name": "Arbex", "team": "apexgp", "number": 46, "estado": "Reserva" },
     { "id": 32, "name": "Yamil", "team": "mclaren", "number": 55, "estado": "Reserva" },
-    { "id": 33, "name": "Giancarlo", "team": "mercedes", "number": 18, "estado": "Reserva" }
+    { "id": 33, "name": "Giancarlo", "team": "mercedes", "number": 18, "estado": "Reserva" },
+    { "id": 34, "name": "Arbex", "team": "mercedes", "number": 46, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
@@ -186,6 +187,33 @@
          { "driverId": 17, "time": "--:--" }
        ],
       "race": [26, 23, 5, 20, 15, 31, 29, 2, 18, 11, 25, 19, 14, 22, 33, 12, 17, 24, 27, 4, 10, 32]
+    },
+    "5": {
+       "qualifying": [
+         { "driverId": 23, "time": "1:09.633" },
+         { "driverId": 5, "time": "1:10.233" },
+         { "driverId": 19, "time": "1:10.856" },
+         { "driverId": 20, "time": "1:10.916" },
+         { "driverId": 2, "time": "1:11.133" },
+         { "driverId": 26, "time": "1:12.399" },
+         { "driverId": 35, "time": "1:13.283" },
+         { "driverId": 34, "time": "1:13.383" },
+         { "driverId": 15, "time": "1:14.766" },
+         { "driverId": 12, "time": "1:17.066" },
+         { "driverId": 14, "time": "1:18.516" },
+         { "driverId": 22, "time": "1:19.550" },
+         { "driverId": 3, "time": "--:--" },
+         { "driverId": 29, "time": "--:--" },
+         { "driverId": 10, "time": "--:--" },
+         { "driverId": 11, "time": "--:--" },
+         { "driverId": 12, "time": "--:--" },
+         { "driverId": 16, "time": "--:--" },
+         { "driverId": 17, "time": "--:--" },
+         { "driverId": 24, "time": "--:--" },
+         { "driverId": 27, "time": "--:--" },
+         { "driverId": 28, "time": "--:--" }
+       ],
+      "race": []
     }
   },
   "pointsSystem": {
