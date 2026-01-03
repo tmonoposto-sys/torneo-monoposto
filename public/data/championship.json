@@ -220,6 +220,33 @@
          { "driverId": 28, "time": "--:--" }
        ],
       "race": [5, 23, 20, 19, 2, 15, 26, 35, 25, 34, 12, 29, 14, 22, 28, 10, 24, 16, 3, 11, 27, 17]
+    },
+    "6": {
+       "qualifying": [
+         { "driverId": 23, "time": "1:04.316" },
+         { "driverId": 19, "time": "1:04.833" },
+         { "driverId": 5, "time": "1:05.349" },
+         { "driverId": 20, "time": "1:06.050" },
+         { "driverId": 34, "time": "1:08.033" },
+         { "driverId": 15, "time": "1:10.133" },
+         { "driverId": 2, "time": "1:10.183" },
+         { "driverId": 35, "time": "1:11.583" },
+         { "driverId": 29, "time": "1:12.416" },
+         { "driverId": 10, "time": "1:17.546" },
+         { "driverId": 11, "time": "1:18.199" },
+         { "driverId": 3, "time": "1:18.566" },
+         { "driverId": 16, "time": "1:23.566" },
+         { "driverId": 28, "time": "--:--" },
+         { "driverId": 27, "time": "--:--" },
+         { "driverId": 26, "time": "--:--" },
+         { "driverId": 25, "time": "--:--" },
+         { "driverId": 24, "time": "--:--" },
+         { "driverId": 22, "time": "--:--" },
+         { "driverId": 17, "time": "--:--" },
+         { "driverId": 14, "time": "--:--" },
+         { "driverId": 12, "time": "--:--" }
+       ],
+      "race": []
     }
   },
   "pointsSystem": {
