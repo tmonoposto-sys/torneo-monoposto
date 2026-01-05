@@ -60,12 +60,12 @@
     { "teamId": "redbull", "name": "David" },
     { "teamId": "ferrari", "name": "Eleazer" },
     { "teamId": "mercedes", "name": "Juan" },
-    { "teamId": "mclaren", "name": "Zezie" },
+    { "teamId": "mclaren", "name": "Matias" },
     { "teamId": "astonmartin", "name": "Slsosleps" },
     { "teamId": "alpine", "name": "Valentino" },
-    { "teamId": "williams", "name": "Matias" },
+    { "teamId": "williams", "name": "Mati" },
     { "teamId": "haas", "name": "Fernando" },
-    { "teamId": "racingbull", "name": "Marcos" },
+    { "teamId": "racingbull", "name": "David" },
     { "teamId": "sauber", "name": "Antonio" },
     { "teamId": "apexgp", "name": "Juan" }
   ],
@@ -272,12 +272,12 @@
          { "driverId": 17, "time": "--:--" },
          { "driverId": 19, "time": "--:--" },
          { "driverId": 24, "time": "--:--" },
-         { "driverId": 33, "time": "--:--" },
+         { "driverId": 38, "time": "--:--" },
          { "driverId": 27, "time": "--:--" },
          { "driverId": 28, "time": "--:--" },
          { "driverId": 29, "time": "--:--" }
        ],
-      "race": [15, 5, 3, 25, 23, 35, 2, 28, 34, 14, 16, 11, 12, 24, 10, 33, 22, 19, 17, 29, 27, 20],
+      "race": [15, 5, 3, 25, 23, 35, 2, 28, 34, 14, 16, 11, 12, 24, 10, 38, 22, 19, 17, 29, 27, 20],
       "fastestLap": 2
     }
   },
