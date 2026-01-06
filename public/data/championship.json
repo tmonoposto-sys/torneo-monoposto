@@ -282,10 +282,15 @@
     },
     "8": {
       "qualifying": [
+        { "driverId": 5, "time": "0:48.266" },
         { "driverId": 20, "time": "0:51.833" },
+        { "driverId": 19, "time": "0:52.599" },
         { "driverId": 37, "time": "0:53.683" },
         { "driverId": 2, "time": "0:55.400" },
-        { "driverId": 10, "time": "0:59.649" }
+        { "driverId": 38, "time": "0:58.250" },
+        { "driverId": 10, "time": "0:59.649" },
+        { "driverId": 3, "time": "1:02:833" },
+        { "driverId": 22, "time": "1:09.333" }
        ],
       "race": []
     }
