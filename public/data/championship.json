@@ -282,9 +282,10 @@
     },
     "8": {
       "qualifying": [
+        { "driverId": 20, "time": "0:51.833" },
         { "driverId": 37, "time": "0:53.683" },
         { "driverId": 2, "time": "0:55.400" },
-         { "driverId": 10, "time": "0:59.649" }
+        { "driverId": 10, "time": "0:59.649" }
        ],
       "race": []
     }
