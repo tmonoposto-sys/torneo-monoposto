@@ -53,7 +53,7 @@
     { "id": 23, "name": "Carlos", "team": "astonmartin", "number": 97, "estado": "Titular" },
     { "id": 35, "name": "Joshua", "team": "astonmartin", "number": 27, "estado": "Titular" },
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 16, "estado": "Titular" },
-    { "id": 37, "name": "Luca", "team": "williams", "number": 6, "estado": "Titular" },
+    { "id": 37, "name": "Biassini", "team": "williams", "number": 6, "estado": "Titular" },
     { "id": 38, "name": "Giancarlo", "team": "haas", "number": 18, "estado": "Titular" }
   ],
   "teamPrincipals": [
