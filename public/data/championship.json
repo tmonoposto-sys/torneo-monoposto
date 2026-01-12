@@ -87,7 +87,7 @@
     { "id": 11, "name": "Gran Premio de Austria", "country": "Austria", "flag": "🇦🇹", "circuit": "Red Bull Ring", "isSprint": true },
     { "id": 12, "name": "Gran Premio de Austria", "country": "Austria", "flag": "🇦🇹", "circuit": "Red Bull Ring", "isRain": false },
     { "id": 13, "name": "Gran Premio de Hungría", "country": "Hungría", "flag": "🇭🇺", "circuit": "Hungaroring" },
-    { "id": 14, "name": "Gran Premio de Bélgica", "country": "Bélgica", "flag": "🇧🇪", "circuit": "Circuit de Spa-Francorchamps", "isRain": true },
+    { "id": 14, "name": "Gran Premio de Bélgica", "country": "Bélgica", "flag": "🇧🇪", "circuit": "Circuit de Spa-Francorchamps", "isRain": false },
     { "id": 15, "name": "Gran Premio de Monza", "country": "Italia", "flag": "🇮🇹", "circuit": "Autodromo Nazionale Monza", "isSprint":true },
     { "id": 16, "name": "Gran Premio de Monza", "country": "Italia", "flag": "🇮🇹", "circuit": "Autodromo Nazionale Monza" },
     { "id": 17, "name": "Gran Premio de Holanda", "country": "Países Bajos", "flag": "🇳🇱", "circuit": "Circuit Zandvoort" },
@@ -99,7 +99,7 @@
     { "id": 23, "name": "Gran Premio de las Américas", "country": "Estados Unidos", "flag": "🇺🇸", "circuit": "Circuit of The Americas" },
     { "id": 24, "name": "Gran Premio de México", "country": "México", "flag": "🇲🇽", "circuit": "Autódromo Hermanos Rodríguez" },
     { "id": 25, "name": "Gran Premio de Brasil", "country": "Brasil", "flag": "🇧🇷", "circuit": "Autódromo de Interlagos", "isRain": true, "isSprint":true },
-    { "id": 26, "name": "Gran Premio de Brasil", "country": "Brasil", "flag": "🇧🇷", "circuit": "Autódromo de Interlagos", "isRain": true },
+    { "id": 26, "name": "Gran Premio de Brasil", "country": "Brasil", "flag": "🇧🇷", "circuit": "Autódromo de Interlagos", "isRain": false },
     { "id": 27, "name": "Gran Premio de Las Vegas", "country": "Estados Unidos", "flag": "🇺🇸", "circuit": "Las Vegas Strip Circuit" },
     { "id": 28, "name": "Gran Premio de Qatar", "country": "Qatar", "flag": "🇶🇦", "circuit": "Lusail International Circuit" },
     { "id": 29, "name": "Gran Premio de Abu Dhabi", "country": "Emiratos Árabes Unidos", "flag": "🇦🇪", "circuit": "Yas Marina Circuit" }
