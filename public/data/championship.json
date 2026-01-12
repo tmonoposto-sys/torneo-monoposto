@@ -85,7 +85,7 @@
     { "id": 9, "name": "Gran Premio de Canadá", "country": "Canadá", "flag": "🇨🇦", "circuit": "Circuit Gilles Villeneuve", "isRain": true },
     { "id": 10, "name": "Gran Premio de España", "country": "España", "flag": "🇪🇸", "circuit": "Circuit de Barcelona-Catalunya" },
     { "id": 11, "name": "Gran Premio de Austria", "country": "Austria", "flag": "🇦🇹", "circuit": "Red Bull Ring", "isSprint": true },
-    { "id": 12, "name": "Gran Premio de Austria", "country": "Austria", "flag": "🇦🇹", "circuit": "Red Bull Ring", "isRain": true },
+    { "id": 12, "name": "Gran Premio de Austria", "country": "Austria", "flag": "🇦🇹", "circuit": "Red Bull Ring", "isRain": false },
     { "id": 13, "name": "Gran Premio de Hungría", "country": "Hungría", "flag": "🇭🇺", "circuit": "Hungaroring" },
     { "id": 14, "name": "Gran Premio de Bélgica", "country": "Bélgica", "flag": "🇧🇪", "circuit": "Circuit de Spa-Francorchamps", "isRain": true },
     { "id": 15, "name": "Gran Premio de Monza", "country": "Italia", "flag": "🇮🇹", "circuit": "Autodromo Nazionale Monza", "isSprint":true },
