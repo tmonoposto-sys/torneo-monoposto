@@ -409,7 +409,17 @@
         { "driverId": 20, "time": "0:52.200" },
         { "driverId": 44, "time": "0:53.150" },
         { "driverId": 38, "time": "0:53.43" },
-        { "driverId": 10, "time": "0:57.83" }
+        { "driverId": 10, "time": "0:57.83" },
+        { "driverId": 35, "time": "--:--" },
+        { "driverId": 41, "time": "--:--" },
+        { "driverId": 40, "time": "--:--" },
+        { "driverId": 37, "time": "--:--" },
+        { "driverId": 16, "time": "--:--" },
+        { "driverId": 29, "time": "--:--" },
+        { "driverId": 27, "time": "--:--" },
+        { "driverId": 12, "time": "--:--" },
+        { "driverId": 11, "time": "--:--" },
+        { "driverId": 34, "time": "--:--" }
        ],
       "race": []
     }
