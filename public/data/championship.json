@@ -437,7 +437,8 @@
         { "driverId": 37, "time": "0:56.716" },
         { "driverId": 36, "time": "0:58.200" },
         { "driverId": 11, "time": "0:58.316" },
-        { "driverId": 44, "time": "0:58.883" }
+        { "driverId": 44, "time": "0:58.883" },
+        { "driverId": 35, "time": "0:59.483" }
        ],
       "race": []
     }
