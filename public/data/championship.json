@@ -461,6 +461,7 @@
     },
     "14": {
       "qualifying": [
+        { "driverId": 23, "time": "1:20.799" },
         { "driverId": 47, "time": "1:21.333" },
         { "driverId": 37, "time": "1:22.849" },
         { "driverId": 46, "time": "1:23.316" },
@@ -472,7 +473,6 @@
         { "driverId": 40, "time": "--:--" },
         { "driverId": 38, "time": "--:--" },
         { "driverId": 35, "time": "--:--" },
-        { "driverId": 26, "time": "--:--" },
         { "driverId": 45, "time": "--:--" },
         { "driverId": 27, "time": "--:--" },
         { "driverId": 12, "time": "--:--" },
