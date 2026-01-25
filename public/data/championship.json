@@ -68,7 +68,7 @@
     { "id": 40, "name": "Iker", "team": "sauber", "number": 61, "estado": "Titular" },
     { "id": 50, "name": "Lotis", "team": "sauber", "number": 62, "estado": "Titular" },
     { "id": 52, "name": "Thiago", "team": "apexgp", "number": 60, "estado": "Titular" },
-    { "id": 51, "name": "Boys", "team": "apexgp", "number": 64, "estado": "Titular" }
+    { "id": 51, "name": "Gael", "team": "apexgp", "number": 64, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
