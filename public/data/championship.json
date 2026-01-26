@@ -516,6 +516,32 @@
       ],
       "race": [19, 5, 50, 45, 20, 23, 37, 51, 11, 44, 47, 10, 38, 40, 49, 43, 27, 46, 52, 12, 35, 36],
       "fastestLap": 50
+    },
+    "16": {
+      "qualifying": [
+        { "driverId": 50, "time": "1:04.916" },
+        { "driverId": 47, "time": "1:05.083" },
+        { "driverId": 5, "time": "1:05.200" },
+        { "driverId": 23, "time": "1:05.350" },
+        { "driverId": 19, "time": "1:05.583" },
+        { "driverId": 45, "time": "1:05.600" },
+        { "driverId": 37, "time": "1:06.033" },
+        { "driverId": 20, "time": "1:06.716" },
+        { "driverId": 11, "time": "1:08.000" },
+        { "driverId": 51, "time": "1:08.416" },
+        { "driverId": 35, "time": "1:09.026" },
+        { "driverId": 52, "time": "1:10.083" },
+        { "driverId": 44, "time": "1:14.500" },
+        { "driverId": 49, "time": "1:16.600" },
+        { "driverId": 53, "time": "1:19.649" },
+        { "driverId": 54, "time": "--:--" },
+        { "driverId": 46, "time": "--:--" },
+        { "driverId": 38, "time": "--:--" },
+        { "driverId": 36, "time": "--:--" },
+        { "driverId": 27, "time": "--:--" },
+        { "driverId": 12, "time": "--:--" },
+        { "driverId": 10, "time": "--:--" }
+      ]
     }
   },
   "pointsSystem": {
