@@ -67,6 +67,7 @@
     { "id": 23, "name": "Carlos", "team": "astonmartin", "number": 97, "estado": "Titular" },
     { "id": 35, "name": "Joshua", "team": "astonmartin", "number": 27, "estado": "Titular" },
     { "id": 47, "name": "Luis", "team": "williams", "number": 12, "estado": "Titular" },
+    { "id": 59, "name": "Luis", "team": "williams", "number": 78, "estado": "Titular" },
     { "id": 38, "name": "Giancarlo", "team": "haas", "number": 18, "estado": "Titular" },
     { "id": 46, "name": "Arbex", "team": "haas", "number": 46, "estado": "Titular" },
     { "id": 50, "name": "Lotis", "team": "sauber", "number": 62, "estado": "Titular" },
@@ -603,6 +604,32 @@
       ],
       "race": [5, 23, 50, 47, 1, 55, 20, 51, 56, 44, 35, 10, 11, 58, 57, 52, 45, 38, 12, 38, 36],
       "fastestLap": 5
+    },
+    "19": {
+      "qualifying": [
+        {"driverId": 58, "time": "1:10.044"},
+        {"driverId": 23, "time": "1:13.016"},
+        {"driverId": 4, "time": "1:13.766"},
+        {"driverId": 50, "time": "1:14.133"},
+        {"driverId": 47, "time": "1:15.350"},
+        {"driverId": 20, "time": "1:17.316"},
+        {"driverId": 35, "time": "1:18.000"},
+        {"driverId": 44, "time": "1:25.083"},
+        {"driverId": 11, "time": "1:26.350"},
+        {"driverId": 10, "time": "1:28.149"},
+        {"driverId": 1, "time": "--:--"},
+        {"driverId": 12, "time": "--:--"},
+        {"driverId": 57, "time": "--:--"},
+        {"driverId": 45, "time": "--:--"},
+        {"driverId": 36, "time": "--:--"},
+        {"driverId": 59, "time": "--:--"},
+        {"driverId": 38, "time": "--:--"},
+        {"driverId": 46, "time": "--:--"},
+        {"driverId": 52, "time": "--:--"},
+        {"driverId": 51, "time": "--:--"},
+        {"driverId": 55, "time": "--:--"},
+        {"driverId": 56, "time": "--:--"}
+      ]
     }
   },
   "pointsSystem": {
