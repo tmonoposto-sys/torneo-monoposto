@@ -46,9 +46,9 @@
     { "id": 34, "name": "Arbex", "team": "mercedes", "number": 46, "estado": "Expiloto" },
     { "id": 15, "name": "Giovanni", "team": "williams", "number": 16, "estado": "Expiloto" },
     { "id": 48, "name": "Juan", "team": "mercedes", "number": 47, "estado": "Expiloto" },
+    { "id": 56, "name": "Diaz", "team": "mercedes", "number": 93, "estado": "Expiloto" },
     { "id": 43, "name": "Jack", "team": "mercedes", "number": 33, "estado": "Expiloto" },
     { "id": 49, "name": "Dylan", "team": "mercedes", "number": 43, "estado": "Expiloto" },
-    { "id": 53, "name": "Alex", "team": "mercedes", "number": 33, "estado": "Expiloto" },
     { "id": 54, "name": "Velez", "team": "sauber", "number": 73, "estado": "Expiloto" },
     { "id": 27, "name": "Bonnie", "team": "alpine", "number": 4, "estado": "Expiloto" },
     { "id": 22, "name": "Martin", "team": "mclaren", "number": 43, "estado": "Expiloto" },
@@ -75,7 +75,7 @@
     { "id": 52, "name": "Thiago", "team": "apexgp", "number": 60, "estado": "Titular" },
     { "id": 51, "name": "Gael", "team": "apexgp", "number": 64, "estado": "Titular" },
     { "id": 55, "name": "Vader", "team": "mercedes", "number": 98, "estado": "Titular" },
-    { "id": 56, "name": "Diaz", "team": "mercedes", "number": 93, "estado": "Titular" }
+    { "id": 53, "name": "Alex", "team": "mercedes", "number": 33, "estado": "Titular" }
   ],
   "teamPrincipals": [
     { "teamId": "redbull", "name": "David" },
@@ -660,6 +660,33 @@
       ],
       "race": [23, 5, 50, 47, 20, 1, 35, 36, 59, 11, 12, 44, 57, 38, 51, 10, 55, 46, 52, 45, 56, 58],
       "fastestLap": 50
+    },
+    "21": {
+      "qualifying": [
+        {"driverId": 5, "time": "1:05.399"},
+        {"driverId": 1, "time": "1:05.533"},
+        {"driverId": 50, "time": "1:05.766"},
+        {"driverId": 23, "time": "1:05.966"},
+        {"driverId": 58, "time": "1:07.000"},
+        {"driverId": 20, "time": "1:08.783"},
+        {"driverId": 44, "time": "1:09.033"},
+        {"driverId": 35, "time": "1:14.250"},
+        {"driverId": 11, "time": "1:18.950"},
+        {"driverId": 53, "time": "1:27.850"},
+        {"driverId": 10, "time": "--:--"},
+        {"driverId": 12, "time": "--:--"},
+        {"driverId": 57, "time": "--:--"},
+        {"driverId": 45, "time": "--:--"},
+        {"driverId": 36, "time": "--:--"},
+        {"driverId": 47, "time": "--:--"},
+        {"driverId": 59, "time": "--:--"},
+        {"driverId": 38, "time": "--:--"},
+        {"driverId": 46, "time": "--:--"},
+        {"driverId": 52, "time": "--:--"},
+        {"driverId": 51, "time": "--:--"},
+        {"driverId": 55, "time": "--:--"}
+      ],
+      "race": []
     }
   },
   "pointsSystem": {
