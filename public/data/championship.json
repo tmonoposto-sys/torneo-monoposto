@@ -720,8 +720,8 @@
     "23": {
       "qualifying": [
         { "driverId": 23, "time": "1:08.403" },
-        { "driverId": 5, "time":  "1:08.578" },
-        { "driverId": 1, "time":  "1:08.898" },
+        { "driverId": 5,  "time": "1:08.578" },
+        { "driverId": 1,  "time": "1:08.898" },
         { "driverId": 50, "time": "1:08.951" },
         { "driverId": 58, "time": "1:09.168" },
         { "driverId": 20, "time": "1:11.986" },
