@@ -769,7 +769,8 @@
         { "driverId": 51, "time": "--:--" },
         { "driverId": 53, "time": "--:--" },
         { "driverId": 55, "time": "--:--" }
-      ]
+      ],
+      "race": []
     }
   },
   "pointsSystem": {
